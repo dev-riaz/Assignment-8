@@ -22,10 +22,10 @@ export default function RootLayout({ children }) {
       data-theme="light"
       className={`${OutfitFont.variable}h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">
+      <body className="min-h-full flex flex-col bg-[#F8F9F5]">
         <Navbar></Navbar>
         {children}
-        <Footer></Footer>
+        {/* <Footer></Footer> */}
       </body>
     </html>
   );
