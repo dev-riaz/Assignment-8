@@ -1,7 +1,9 @@
 import AnimalCard from "./shared/AnimalCard";
 
 const FeaturedAnimals = async () => {
-  const res = await fetch("http://localhost:3000/animalData.json");
+  const res = await fetch(
+    "https://assignment-8-z82t-git-main-dev-riazs-projects.vercel.app/",
+  );
   const data = await res.json();
 
   const animalData = data.slice(0, 4);
